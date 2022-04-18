@@ -1,17 +1,17 @@
 :root {
-        /**Primary Colors**/
-        --soft-blue: hsl(215, 51%, 70%);
-        --cyan: hsl(178, 100%, 50%);
+  /**Primary Colors**/
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
 
-        /**Neutral Colors**/
-        --main-bg: hsl(217, 54%, 11%);
-        --card-bg: hsl(216, 50%, 16%);
-        --inline: hsl(210, 44%, 22%);
-        --white: hsl(0, 0%, 100%);
+  /**Neutral Colors**/
+  --main-bg: hsl(217, 54%, 11%);
+  --card-bg: hsl(216, 50%, 16%);
+  --inline: hsl(210, 44%, 22%);
+  --white: hsl(0, 0%, 100%);
 
-        /* Font Sizes */
-        --fs-400: 1.125rem;
-        --fs-300: 1rem;
+  /* Font Sizes */
+  --fs-400: 1.125rem;
+  --fs-300: 1rem;
 }
 
 /* Box sizing rules */
@@ -33,8 +33,8 @@ figure {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -54,7 +54,7 @@ body {
   align-items: center;
   grid-gap: 10px 1rem;
   color: var(--white);
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
   padding: 2rem;
 }
 
@@ -80,9 +80,9 @@ div a:hover {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -95,15 +95,15 @@ div a:hover {
 
 /* Custom styles */
 .container {
-    width: 320px;
-    height: 540px;
-    border-radius: 10px;
-    padding: 1.5rem;
-    margin: 1rem;
-    background-color: var(--inline);
+  width: 320px;
+  height: 540px;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1rem;
+  background-color: var(--inline);
 }
 
-.container:first-child img{
+.container:first-child img {
   margin-bottom: 10px;
 }
 
@@ -114,7 +114,6 @@ div a:hover {
   border-radius: 10px;
   margin: 10px;
 }
-
 
 .attribution {
   display: flex;
@@ -130,23 +129,23 @@ figure {
   height: 65%;
 }
 
-figure img{
+figure img {
   width: 100%;
   margin: 0 auto;
   border-radius: 10px;
   transition: all 500ms ease-out;
 }
 
-.cape{
+.cape {
   width: 100%;
   height: 85%;
   border-radius: 10px;
   top: 0;
   display: flex;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   position: absolute;
-  background-color: hsla(178, 100%, 50%, .40);
+  background-color: hsla(178, 100%, 50%, 0.4);
   transition: all 500ms ease-out;
   opacity: 0;
   visibility: hidden;
@@ -169,13 +168,13 @@ figure:hover > .cape {
 .--iridicent {
   color: var(--cyan);
   font-weight: bold;
-  font-size:var(--fs-300);
+  font-size: var(--fs-300);
 }
 
 .content {
   display: flex;
   align-items: center;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-bottom: 10px;
   margin-top: 10px;
   border-bottom: 1px solid hsl(215, 51%, 70%);
@@ -184,20 +183,21 @@ figure:hover > .cape {
 .--content {
   display: flex;
   align-items: center;
-  justify-content:left;
+  justify-content: left;
   margin-top: 10px;
 }
 
-.--content img{
+.--content img {
   width: 40px;
   margin-right: 10px;
   margin-left: 0;
 }
 
-.display{
+.display {
   display: flex;
 }
 
-.display p,img {
+.display p,
+img {
   margin: 5px;
 }
