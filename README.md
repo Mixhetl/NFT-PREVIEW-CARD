@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Mixhetl/NFT-PREVIEW-CARD)
-- Live Site URL: [Add live site URL here](https://mixhetl.github.io/NFT-PREVIEW-CARD/)
+- Solution URL: [Github Repository](https://github.com/Mixhetl/NFT-PREVIEW-CARD)
+- Live Site URL: [Github Pages](https://mixhetl.github.io/NFT-PREVIEW-CARD/)
 
 ## My process
 
@@ -78,9 +78,9 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Author
 
-- Website - [Add your name here](https://github.com/Mixhetl)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/Mixhetl)
-- Twitter - [@yourusername]()
+- Website - [Mixhetl](https://github.com/Mixhetl)
+- Frontend Mentor - [Mixhetl](https://www.frontendmentor.io/profile/Mixhetl)
+- Twitter - [Luis Malquiel Hernández Avendaño]()
 
 ## Acknowledgments
 
